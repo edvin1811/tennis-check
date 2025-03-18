@@ -24,4 +24,4 @@ jobs:
       - name: Run Puppeteer script
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-        run: node check-intervals.js
+        run: node check-intervals.mjs
